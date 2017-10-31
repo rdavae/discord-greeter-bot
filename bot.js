@@ -28,7 +28,7 @@ bot.on('ready', function (evt) {
 bot.on('message', function (user, userID, channelID, message, evt) {
     if(message.author.bot) return;
     
-    else if ((message.indexOf('fist') > -1)&& () ) {
+    else if ((message.indexOf('fist') > -1) ) {
         bot.sendMessage({ to: channelID, message: 'Fisting is 300 bucks' });
 
        
